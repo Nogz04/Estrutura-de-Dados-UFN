@@ -20,8 +20,9 @@ public class ArvoreMain {
             System.out.println("6 - Sair");
             System.out.print("Escolha uma opção: ");
             int opcao = scanner.nextInt();
-            scanner.nextLine(); // Limpar o buffer
-
+            
+            scanner.nextLine(); // Limpando o buffer para evitar erro
+            
             switch (opcao) {
                 case 1:
                     cadastrar(scanner);
